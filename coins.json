@@ -214,5 +214,47 @@
 	"dust_limit": 546,
 	"blocktime_minutes": 2.5,
 	"firmware": true
+},
+{
+	"coin_name": "Vertcoin",
+	"coin_shortcut": "VTC",
+	"address_type": 71,
+	"address_type_p2sh": 5,
+	"maxfee_kb": 10000000,
+	"minfee_kb": 100000,
+	"signed_message_header": "Vertcoin Signed Message:\n",
+	"hash_genesis_block": "4d96a915f49d40b1e5c2844d1ee2dccb90013a990ccea12c492d22110489f0c4",
+	"xpub_magic": "0488b21e",
+	"xprv_magic": "0488ade4",
+	"bip44": 128,
+	"segwit": true,
+	"forkid": null,
+	"default_fee_b": {
+		"Normal": 100
+	},
+	"dust_limit": 54600,
+	"blocktime_minutes": 2.5,
+	"firmware": true
+},
+{
+	"coin_name": "Vertcoin Testnet",
+	"coin_shortcut": "TVTC",
+	"address_type": 74,
+	"address_type_p2sh": 196,
+	"maxfee_kb": 10000000,
+	"minfee_kb": 100000,
+	"signed_message_header": "Vertcoin Signed Message:\n",
+	"hash_genesis_block": "cee8f24feb7a64c8f07916976aa4855decac79b6741a8ec2e32e2747497ad2c9",
+	"xpub_magic": "043587cf",
+	"xprv_magic": "04358394",
+	"bip44": 239,
+	"segwit": true,
+	"forkid": null,
+	"default_fee_b": {
+		"Normal": 100
+	},
+	"dust_limit": 54600,
+	"blocktime_minutes": 2.5,
+	"firmware": true
 }
 ]
